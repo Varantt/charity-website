@@ -1,0 +1,297 @@
+body {
+    font-family: 'Stylish',
+        sans-serif;
+    /* overflow: hidden; */
+    padding:0;
+    /* box-sizing:border-box; */
+    }
+
+    a{
+        text-decoration:none;
+    }
+
+
+footer{
+    background:rgb(150, 50, 50);
+    box-shadow:2px 4px 5px 2px rgb(0, 0, 0);
+    color:white;
+    padding-top:20px;
+    height:250px;
+}
+
+footer p:hover{
+    padding-left:12px;
+    transition:0.4s;
+}
+
+
+.header-text{
+    /* text-align:left; */
+    width:40%;
+    line-height:80px;
+    /* width:45%; */
+    text-shadow: 1px 1px 0px  white;
+    background:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    padding:125px;
+    padding-top:25px;
+    box-sizing: border-box;
+    height:60vh;
+    border-radius: 60%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.header-text h1{
+    font-size:46px;
+    color:rgb(255, 0, 0);
+}
+
+.header-text >div{
+    padding:12px;
+    background:rgb(255, 0, 0) !important;
+}
+
+.header-text> div> a{
+    color: rgb(255, 255, 255);
+        font-size: 22px;
+}
+
+.hidden{
+    display:none;
+    
+    
+}
+
+.hov:hover .hidden {
+    display:block !important;
+    position:absolute;
+    background:white;
+    top:45px;
+    list-style-type: none;
+    width: 200px;
+    padding: 10px;
+    border-radius:4px;
+}
+
+.hov:hover .hidden   a {
+    color:rgb(150, 50, 50) !important;
+    text-align:left;
+
+}
+
+.back{
+    background-image: url(../img/action.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+}
+
+.back-2{
+        background-image: url(../img/requests.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 85vh;
+}
+
+.back-3{
+            background-image: url(../img/about.jpg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 72vh;
+}
+
+.section-1{
+background: url(../img/charity.jpg) fixed center;
+height:100vh;
+background-size: cover;
+/* padding-top:10%; */
+
+}
+
+.section-2{
+    /* position:relative; */
+    background:rgb(255, 255, 255) !important;
+    /* right:0; */
+    /* left:400px; */
+    /* display:inline-block; */
+    margin:0;
+    border:none;
+    padding:250px;
+}
+
+.section-2 img{
+    border-radius:50%;
+}
+
+
+
+/* .section-1 >div{ 
+    background:rgba(44, 135, 119,0.24);  
+    padding-top:22%; 
+    padding-bottom:25%; 
+    color:white;
+} */
+
+.section-3{
+    background: url(../img/header.jpg) fixed center;
+    height:90vh;
+    background-size: cover;
+
+}
+.section-5{
+    background: url(../img/requests.jpg) fixed center;
+    height:100vh;
+    background-size: cover;
+
+}
+
+.section-7 {
+    background: url(../img/landin3.jpg) fixed center;
+    height: 60vh;
+    background-size: cover;
+
+}
+
+.social a{
+    margin-right:20px;
+    color:white;
+    font-size:22px;
+    transition:0.4s;
+}
+
+.social a:hover{
+    color:cornflowerblue;
+}
+
+
+
+.card{
+    opacity:0;
+}
+
+
+/* body::before {
+    display: block;
+    content: '';
+    height: 80px;
+} */
+
+.head img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100vh;
+    width:100vw;
+    background-position: center;
+}
+
+
+.navbar-toggler-icon{
+    background:rgb(255, 0, 0);
+    border-radius: 20% 60% 40% 20%;
+    
+    outline:none;
+}
+
+.nav-item{
+    margin-right:5px;
+
+}
+
+.nav-link{
+    color:rgb(150, 50, 50) !important;
+    font-size:1.2rem;
+    transition:0.4s;
+}
+
+.nav-link:hover, .hov .hidden a:hover{
+    color: rgb(1, 1, 1) !important;
+        /* border-bottom:0.1px solid aquamarine; */
+}
+
+
+.navbar-brand{
+    font-size:1.2rem;
+}
+
+.btn:hover{
+    color:rgb(0, 0, 0);
+}
+
+
+.donations {
+    box-shadow: 2px 3px 2px 2px grey;
+    border-radius:10px;
+    width:80%;
+    margin-top:20px;
+    padding-top:0;
+}
+
+
+
+@media(max-width:768px){
+    section {
+            height: 1000px;
+        }
+
+        footer{
+            margin-top: 450px;
+        }
+
+        .header-text{
+            width:80%;
+            height:40vh;
+            /* line-height:0px; */
+            /* border-radius:0px; */
+            padding:40px;
+        }
+
+        .header-text>h5{
+            font-size:13px;
+        }
+
+        .header-text h1{
+            font-size:22px;
+        }
+
+        .header-text> div{
+            font-size:17px;
+        }
+
+
+        .section-2{
+            padding:0;
+        }
+
+        .section-2 h1, .third_h2{
+            border-bottom:2px solid red ;
+            margin-bottom:25px;
+        }
+
+
+        .hidden a{
+            color: rgb(150, 50, 50) !important;
+            text-align: left;
+        }
+        
+
+
+    
+
+        .col-lg-4{
+            padding-left:35px;
+            margin-bottom:20px;
+        }
+        
+        /* .section-1 ,.section-2{
+        } */
+
+        
+
+}
+
